@@ -1,12 +1,12 @@
 import * as fs from "fs";
 
 module.exports = {
-  type: "cockroachdb",
-  host: "free-tier.gcp-us-central1.cockroachlabs.cloud",
+  type: "",
+  host: "",
   port: 26257,
-  username: "jon",
-  password: "fQaiZ238V88VeOl0",
-  database: "hungry-mantis-3463.vault",
+  username: "",
+  password: "",
+  database: "",
   ssl: {
      ca: fs.readFileSync('/home/jonathanhuydieu/.postgresql/root.crt').toString()
    },
